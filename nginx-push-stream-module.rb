@@ -1,4 +1,4 @@
-class PushStreamNginxModule < Formula
+class NginxPushStreamModule < Formula
   desc "pure stream http push technology"
   homepage "https://github.com/wandenberg/nginx-push-stream-module"
   url "https://github.com/wandenberg/nginx-push-stream-module/archive/0.4.1.tar.gz"
