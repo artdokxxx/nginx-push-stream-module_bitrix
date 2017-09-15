@@ -7,6 +7,6 @@ class PushStreamNginxModule < Formula
   bottle :unneeded
 
   def install
-    pkgshare.install Dir["*"]
+    (share+"push-stream-nginx-module").install Dir["*"]
   end
 end
